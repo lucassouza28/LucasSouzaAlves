@@ -1,0 +1,93 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    width: 0 auto;
+    height: 0 auto;
+    color: rgb(255, 253, 253)
+}
+body {background-image: url(imagens/gradient-wallpaper-226142802d963e1baad832e5b0b8b952.jpg);}
+
+.conteaner {
+    display: grid;
+    margin-top: 3rem 
+}
+.menu {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content:center;
+    /*centraliza o menu*/
+    gap: 20px;
+
+    ;
+
+}    
+a:link {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: solid #ececec ;
+    background-color: #fff7f7;
+}
+ul {
+    color: #fff7f7;
+    list-style-type:none;
+    
+}
+li {
+    float:left;
+}
+
+a:hover {
+    background-color: #0c164d;
+    color: rgb(252, 251, 251);
+}
+img{
+   height: 320px;
+   position: relative;
+   top: 5px;
+   left: 200px;
+}
+   
+
+    .footer {
+        width: 100%;
+        height: 40px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #030303;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    } 
+    .icone {
+        list-style: none;
+        padding: 0; 
+    }
+    .icone li {
+        display: inline;
+        margin: 0 10px;
+    }
+    .button{
+        
+ width: 40px;
+        height: 40px;
+        position: fixed;
+        left: 217px;
+        top: 410px;
+        bottom: auto;
+        border: 10%; 
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .fundodiv{
+        width: 400px;
+        height: 150px;
+        position: fixed;
+        left: 330px;
+        top: 150px;
+        margin-left: 100px;
+        color: white;
+        font-size: x-large;
+    }
